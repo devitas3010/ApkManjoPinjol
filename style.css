@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,13,121,1) 36%, rgba(0,212,255,1) 100%);
+   height: 100vh;
+   width:100%
+}
+
+.form{
+    position: absolute;
+    width:350px;
+    height:500px;
+	background:url('background.jpg');
+	background-size:cover;
+    margin-top: 5em;
+    margin-left:36%;
+
+    box-shadow:1px 13px 12px 3px rgba(0,0,0,0.4);
+}
+i{
+	margin-top:20px ;
+    font-size:100px;
+    color:rgb(238, 238, 238);
+}
+.form-inner{
+    margin-top:4em;
+    margin-left:45px;
+}
+@media (max-width:600px){
+    .form{
+        margin-left:15%;
+    }
+}
+
+input{
+    width:230px;
+    height:40px;
+    border-radius:20px;
+    background:rgb(23,26,49);
+    border:none;
+    color:#fff;
+    padding-left:20px;
+    font-size:14px;
+   outline:none;
+}
+.space{
+    margin-top:20px;
+}
+.submit-btn{
+    width:250px;
+    margin-top:30px;
+    border-radius:20px;
+    border:none;
+    height: 35px;
+    background:rgb(80,48,221);
+    color:#fff;
+  text-align: center;
+  cursor: pointer;
+}
+.account-btn{
+    width:250px;
+    margin-top:30px;
+    border-radius:20px;
+    border:none;
+    height: 35px;
+    background:transparent;
+    color:#fff;
+  text-align: center;
+  cursor: pointer;
+}
+.submit-btn:hover{
+    background: #fff;
+    color:#000;
+}
+.account-btn:hover{
+    background: #fff;
+    color:#000;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover{
+    color:rgb(84,24,182);
+}
+h1{
+    text-align:center;
+    padding-top:30px;
+}
